@@ -1,0 +1,35 @@
+
+hr{float:left}
+label{width:100%}
+.checkbox{margin:5px 0;}
+.nopadding{padding-right:0;padding-left:0;}
+.expadding{padding:0}
+.right{float:right; margin:7px}
+.navbar{background-color: #fff; margin-bottom:0}
+#headlogo{width:50px}
+#logo{width:80%; margin: 0 10%;}
+#login { border:none; margin-bottom:0;}
+#login .input-group{padding-bottom:10px;}
+#login .glyphicon {margin: 0; top: 0;}
+#login .panel-body{ padding-bottom:0}
+#register { background-color: #eee; color: #4cae4c}
+#details form{margin-top:10px}
+.spacer{padding:5px 0;width:100%;float:left}
+.spaced{margin:10px 0}
+.nudged{margin:0 5px;}
+.locblock *{float:left;}
+.locblock input{margin-right:5px}
+.locblock .btn{padding:2px 12px}
+.locblock span{padding-right:5px;}
+.locblock .glyphicon{margin-top:2px}
+#results .panel-title{font-weight:bold}
+#restoLoc img{max-width:100%}
+#results h4,#meal h3,#meal h4 {margin:0!important}
+.mealbtn{float:right}
+.capwidth{max-width:100%;}
+.marker{max-width:250px; font-size:12px}
+.marker .logo{max-width:35%!important; float:left;}
+.marker .info{font-size:11px;max-width:55%; float:left;text-align:right}
+.marker .info span{float:right;width:100%}
+#bottom{margin:15px 0}
+#copyright{text-align: center;}

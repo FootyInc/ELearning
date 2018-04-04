@@ -1,0 +1,26 @@
+.reg-text {
+    text-align: center;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.reg-text h1 {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 60px;
+    letter-spacing: -3px;
+}
+
+.reg-text p {
+    font-size: 20px ;
+}
+
+#test {
+   padding-top: ;
+    padding-bottom:;
+    margin-right: auto;
+    position:inherit
+
+}

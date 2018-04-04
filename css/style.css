@@ -1,0 +1,9 @@
+.nopadding{padding-left:0;padding-right:0}
+#info{text-align:right; float:right}
+#head{margin-top:10px; margin-bottom:15px;}
+.panel{margin-top: 15px; padding-right: 0; padding-left: 0;}
+#minimap{text-align: center}
+#minimap img{max-width:100%}
+#loading{text-align:center;margin-top:150px}
+.thumbnail{margin-top:20px; padding-bottom:10px; text-align:center}
+#copyright{text-align:center;background-color:#005b71;color:#eee;border-radius:5px;padding:15px 0;margin-top:15px;}

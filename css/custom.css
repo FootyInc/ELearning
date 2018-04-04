@@ -1,0 +1,360 @@
+.clear{clear:left}
+.break{margin-bottom:20px}
+.bold{ font-weight:bold }
+.forum.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.forum .fa {
+    width: 1em;
+    text-align: center;
+}
+
+.forum.table th.cell-stat {
+    width: 6em;
+}
+
+.forum.table th.cell-stat-2x {
+    width: 14em;
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: black;
+  background-image: url("../images/whbk.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/oldbook.png");
+ /* background-color: #333;*/
+  /*height: 100%; */
+  /*min-height: 100%;*/
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+}
+
+/**
+ * Paper Stack
+ */
+ 
+* { box-sizing: border-box; }
+a { text-decoration: none; color: #AC190C; }
+body {
+	font-family:bones;
+    src:url("fonts/bones.ttf");	
+    font-weight: bold;
+	background-color: #fff;
+	min-height:100%;
+	padding-top: 50px;
+}
+
+ul.list {
+	font-size: 14px;
+	list-style: none;
+	position: relative;
+	width: 350px;
+	margin: 40px auto;
+	border: 1px solid #f5f5f5;
+	padding: 20px 0;
+	background-color: #FBFBFB;
+	box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.5),
+		    0 4px 3px -2px rgba(0,0,0,.1),
+		    0 1px 1px 0 rgba(0,0,0,.2);
+	text-shadow: 0 1px 0 white;
+}
+ul.list:before, ul.list:after {
+	content: '';
+	position: absolute;
+	left: 2px;
+	top: 3px;
+	background-color: #F9F9F9;
+	border: 1px solid #f5f5f5;
+	width: 99%;
+	height: 100%;
+	z-index: -1;
+	box-shadow: 0 7px 1px -3px rgba(0,0,0,.1),
+		    0 1px 1px 0 rgba(0,0,0,.2);
+	transform: rotate(2.5deg) ;
+}
+ul.list:after {
+	top: 4px;
+	transform: rotate(-1deg) ;
+}
+.list li {
+	border-bottom: 1px solid rgba(0, 0, 3, 0.9);
+	padding: 8px 10px 2px 35px;
+}
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    .custom-font {
+    	color:black;
+    	
+    }
+    .footer{
+    position:absolute;
+    bottom:0;
+    padding: 5px;
+    padding-right: auto;
+    padding-left: auto;
+    text-align:center;
+    font-family:bones;
+    src:url("bones");
+    color:gold;
+    text-decoration: underline;
+    
+    
+    }
+    .font-underline{
+	text-decoration: underline;
+}
+
+    .test {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #fff ;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+.test > img,
+.test a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+a.test:hover,
+a.test:focus,
+a.test.active {
+  border-color: #005B71;
+}
+
+.panel-default > .panel-heading-custom{
+  background-image: url("../images/whbk.jpg");
+  color: #ffffff;
+}
+
+.linetest {
+background-color: #F8ECC2; 
+background-image: 
+linear-gradient(90deg, transparent 79px, black 79px, #abced4 81px, transparent 81px),
+linear-gradient(black .1em, transparent .1em);
+background-size: 100% 3em;
+}
+
+.btnhd  {
+    background-image: url("../images/whbk.jpg");
+    background-color: #cccccc;
+    background-repeat:no-repeat;  
+    background-position:center;
+    background-size:cover;
+    font-size:200%;
+}
+.logStyle  {
+    
+    background-color: white
+    background-repeat:no-repeat;   
+    background-position:center;
+    background-size:cover;
+     border: 2px solid black ;
+  border-radius: 4px;
+    
+}
+
+.inpBord {
+	
+	 border: 1px solid black ;
+  border-radius: 4px;
+	
+}
+.Bordwhite {
+	
+	 border: 2px solid silver ;
+  border-radius: 4px;
+	
+}
+
+
+.paper  {
+    background-image: url("../images/whbk.png");
+    background-color: #cccccc;
+    background-repeat:no-repeat;   
+    background-position:center;
+    background-size:cover;
+}
+.edge-round  {
+	border-radius: 4px;
+}
+.panel-default > .panel-heading-custom{
+  background-image: url("../images/wood.png");
+  color: #ffffff;
+}
+
+.text-format-left {
+	text-align: left;
+}
+
+ul li span {
+  margin-right: 1000px;
+}
+
+.frm1 {
+  margin-right: 1170px;
+}
